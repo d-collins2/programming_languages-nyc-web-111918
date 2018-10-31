@@ -4,8 +4,8 @@ def reformat_languages(languages)
   hash = Hash.new 
   arr = []
   
-  languages.each do |type, value|
-    value.each do |k, v| 
+  languages.each do |type, lang_hash|
+    lang_hash.each do |k, v| 
       v.each do 
       hash[k] = v 
       hash[k][:style] = [key] 
