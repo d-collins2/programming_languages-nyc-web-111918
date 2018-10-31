@@ -11,6 +11,7 @@ def reformat_languages(languages)
           hash[name] = {data_name => value, :style => [type]}
         else 
           hash[name][:style] << type 
+        end 
       end 
     end 
   end  
