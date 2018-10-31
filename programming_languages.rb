@@ -10,7 +10,7 @@ def reformat_languages(languages)
         if hash.key?(name) == false 
           hash[name] = {data_name => value, :style => [type]}
         else 
-          hash[name]
+          hash[name][:style] << type 
       end 
     end 
   end  
