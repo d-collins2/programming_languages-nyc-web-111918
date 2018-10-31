@@ -15,8 +15,6 @@ def reformat_languages(languages)
       end 
     end 
   end  
-  
-  hash[:javascript][:style] = arr 
   hash 
 end 
 
