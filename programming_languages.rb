@@ -8,6 +8,7 @@ def reformat_languages(languages)
     lang_hash.each do |name, data| 
       data.each do |data_name, value| 
         if hash.key?(name) == false 
+          hash
       end 
     end 
   end  
