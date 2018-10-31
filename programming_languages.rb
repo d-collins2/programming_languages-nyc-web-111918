@@ -5,8 +5,8 @@ def reformat_languages(languages)
   arr = []
   
   languages.each do |type, lang_hash|
-    lang_hash.each do |name, v| 
-      v.each do 
+    lang_hash.each do |name, data| 
+      data.each do 
       hash[k] = v 
       hash[k][:style] = [key] 
     end 
