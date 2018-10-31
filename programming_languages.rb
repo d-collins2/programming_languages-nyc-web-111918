@@ -2,7 +2,6 @@ require "pry"
 def reformat_languages(languages)
   # your code here
   hash = Hash.new 
-<<<<<<< HEAD
   arr = []
   
   languages.each do |key, value|
